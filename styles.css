@@ -1,0 +1,15 @@
+body {
+    background-color: #062863;
+    color: #ffffff;
+}
+
+.page_container {
+    padding-top: 4px;
+}
+
+.app-icon {
+    display: inline-block;
+    height: 24px;
+    width: 24px;
+    background-size: contain;
+}

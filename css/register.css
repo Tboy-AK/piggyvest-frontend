@@ -1,0 +1,119 @@
+@font-face {
+    font-family: "My Futura";
+    src: url("../resources/fonts/futuran.ttf");
+}
+
+@font-face {
+    font-family: "My Futura M";
+    src: url("../resources/fonts/futuram.ttf");
+}
+
+@font-face {
+    font-family: "My Futura B";
+    src: url("../resources/fonts/futurab.ttf");
+}
+
+main {
+    max-width: 450px;
+    margin: auto;
+    font-family: "My Futura", sans-serif;
+}
+
+.main_header {
+    text-align: center;
+    margin-bottom: 48px;
+}
+
+.main_heading {
+    font-family: "My Futura M", sans-serif;
+    font-size: 32px;
+    letter-spacing: 2px;
+}
+
+.main_heading .app-icon {
+    height: 36px;
+    width: 36px;
+    text-indent: 48px;
+    font-style: normal;
+    margin-left: calc(0px - (48px + 48px + 36px + 36px));
+}
+
+.icon-piggyvest-logo {
+    background-image: url('../resources/icons/piggyvest_logo.svg');
+}
+
+form {
+    background-color: #ffffff;
+    border-radius: 1em 1em 1em 0;
+    padding: 24px 40px;
+}
+
+.form-header {
+    text-align: center;
+    margin-bottom: 24px;
+}
+
+.form-heading {
+    margin-bottom: 0;
+    color: #083E9E;
+    font-weight: 900;
+    font-size: 24px;
+    letter-spacing: 0.5px;
+}
+
+.form-description {
+    margin-top: 6px;
+    color: #4A5568;
+    font-size: 15px;
+}
+
+.form-field {
+    margin: 24px 0;
+}
+
+.form-label {
+    display: inline-block;
+    color: #4A5568;
+    font-size: 12px;
+    font-weight: 700;
+    margin: 12px 0;
+}
+
+form input, form select {
+    width: 100%;
+    height: 54px;
+    border: none;
+}
+
+.form-text-input {
+    background-color: #EDF2F7;
+    padding: 0 1em;
+    font-size: medium;
+    width: calc(100% - 2em);
+}
+
+.form-text-input::placeholder {
+    color: #B1AEC0;
+}
+
+form select {
+    background-color: #EDF2F7;
+    padding: 0 1em;
+    font-size: medium;
+}
+
+.form-button {
+    text-align: center;
+}
+
+.form-button input {
+    background-color: #062863;
+    border-radius: 1em 1em 1em 0;
+    padding: 2em 0;
+    color: #ffffff;
+    font-weight: 700;
+}
+
+.main_footer {
+    text-align: center;
+}
