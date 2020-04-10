@@ -1,15 +1,17 @@
 body {
-    background-color: #062863;
+    background: url("./resources/images/piggyvest_background.svg") #062863 no-repeat fixed center;
+    background-size: cover;
     color: #ffffff;
 }
 
 .page_container {
-    padding-top: 4px;
+    height: 100%;
 }
 
 .app-icon {
     display: inline-block;
     height: 24px;
     width: 24px;
-    background-size: contain;
+    height: auto;
+    text-decoration: none;
 }
