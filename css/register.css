@@ -15,7 +15,7 @@
 
 main {
     max-width: 450px;
-    margin: auto;
+    margin: 48px auto;
     font-family: "My Futura", sans-serif;
 }
 
@@ -31,15 +31,17 @@ main {
 }
 
 .main_heading .app-icon {
-    height: 36px;
     width: 36px;
     text-indent: 48px;
     font-style: normal;
+    background-position: center;
     margin-left: calc(0px - (48px + 48px + 36px + 36px));
 }
 
 .icon-piggyvest-logo {
-    background-image: url('../resources/icons/piggyvest_logo.svg');
+    background: url('../resources/icons/piggyvest_logo.svg') no-repeat;
+    background-size: contain;
+    color: #ffffff;
 }
 
 form {
@@ -74,46 +76,64 @@ form {
 .form-label {
     display: inline-block;
     color: #4A5568;
-    font-size: 12px;
+    font-size: 13px;
     font-weight: 700;
+    letter-spacing: 0.5px;
     margin: 12px 0;
 }
 
-form input, form select {
+.form-text-input, .form-select, .form-button {
     width: 100%;
-    height: 54px;
+    height: 56px;
     border: none;
 }
 
 .form-text-input {
+    border-radius: 8px;
     background-color: #EDF2F7;
     padding: 0 1em;
-    font-size: medium;
+    font-size: 15px;
     width: calc(100% - 2em);
 }
 
 .form-text-input::placeholder {
     color: #B1AEC0;
+    font-weight: 500;
 }
 
 form select {
+    border-radius: 8px;
     background-color: #EDF2F7;
-    padding: 0 1em;
-    font-size: medium;
+    padding: 0 8px;
+    font-size: 15px;
+    letter-spacing: 0.5px;
+    color: #222222;
 }
 
 .form-button {
     text-align: center;
 }
 
-.form-button input {
-    background-color: #062863;
+.form-button {
+    background-color: #083E9E;
     border-radius: 1em 1em 1em 0;
-    padding: 2em 0;
     color: #ffffff;
+    font-size: 14px;
     font-weight: 700;
+    vertical-align: middle;
 }
 
-.main_footer {
+.main-footer {
     text-align: center;
+    margin: 36px 0;
+    font-size: 14px;
+}
+
+.main-footer a, .main-footer a:active, .main-footer a:visited {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.main-footer a:hover {
+    color: #B1AEC0;
 }

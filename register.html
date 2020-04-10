@@ -4,6 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Akanji Oluwatobiloba">
     <title>PiggyVest | Dashboard</title>
     <link rel="stylesheet" href="styles.css" />
     <link rel="stylesheet" href="css/register.css" />
@@ -14,8 +15,9 @@
         <main class="main_container">
             <header class="main_header">
                 <h1 class="main_heading">
-                    <i class="app-icon icon-piggyvest-logo"><span class="text">piggyvest</span></i>
-
+                    <a href="https://dashboard.piggyvest.com/register" class="app-icon icon-piggyvest-logo">
+                        <span class="icon-text">piggyvest</span>
+                    </a>
                 </h1>
             </header>
 
@@ -26,33 +28,36 @@
                 </header>
 
                 <p class="form-field form-text-field">
-                    <label class="form-label" for="full_name">Full Name</label><br />
-                    <input class="form-text-input" name="full_name" type="text" placeholder="Full name" />
+                    <label class="form-label" for="name">Full Name</label><br />
+                    <input class="form-text-input" name="name" type="text" placeholder="Full name" />
                 </p>
 
                 <p class="form-field form-text-field">
-                    <label class="form-label">Email Address</label><br />
-                    <input class="form-text-input" name="full_name" type="text" placeholder="Email address" />
+                    <label for="email" class="form-label">Email Address</label><br />
+                    <input class="form-text-input" name="email" type="email" placeholder="Email address" />
                 </p>
 
                 <p class="form-field form-text-field">
-                    <label class="form-label">Phone Number</label><br />
-                    <input class="form-text-input" name="full_name" type="text" placeholder="Phone number" />
+                    <label for="telephone" class="form-label">Phone Number</label><br />
+                    <input class="form-text-input" name="telephone" type="tel" placeholder="Phone number" />
                 </p>
 
                 <p class="form-field form-text-field">
-                    <label class="form-label">Password</label><br />
-                    <input class="form-text-input" name="full_name" type="text" placeholder="Password" />
+                    <label for="password" class="form-label">Password</label><br />
+                    <input class="form-text-input" name="password" type="password" placeholder="Password" />
                 </p>
 
                 <p class="form-field form-text-field">
-                    <label class="form-label">Referrer Phone or Promo Code (Optional)</label><br />
-                    <input class="form-text-input" name="full_name" type="text" placeholder="Password" />
+                    <label for="by_referrer" class="form-label">
+                        Referrer Phone or Promo Code (Optional)
+                    </label><br />
+                    <input class="form-text-input" name="by_referrer" type="text"
+                        placeholder="Referrer Phone Or Code" />
                 </p>
 
                 <p class="form-field">
                     <label class="form-label">How did you hear about us? (Optional)</label><br />
-                    <select type="text" placeholder="Password">
+                    <select class="form-select">
                         <Option>Click To Select</Option>
                         <Option>Facebook</Option>
                         <Option>Twitter</Option>
@@ -67,14 +72,14 @@
                     </select>
                 </p>
 
-                <p class="form-button">
-                    <input type="button" value="CREATE ACCOUNT" />
+                <p class="form-field">
+                    <input class="form-button" type="button" value="CREATE ACCOUNT" />
                 </p>
             </form>
 
-            <footer class="main_footer">
+            <footer class="main-footer">
                 <p>
-                    <a>Already have an account? Log in</a>
+                    <a href="https://dashboard.piggyvest.com/login">Already have an account? Log in</a>
                 </p>
             </footer>
         </main>
